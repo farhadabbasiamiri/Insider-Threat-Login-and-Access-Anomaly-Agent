@@ -1,0 +1,6 @@
+pandas>=2.2
+numpy>=2.0
+scikit-learn>=1.6
+gradio>=5.0
+requests>=2.31
+pytest>=8.0

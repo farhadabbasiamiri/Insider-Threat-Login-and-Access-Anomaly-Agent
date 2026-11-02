@@ -1,0 +1,20 @@
+scenario_id,user_id,day,description
+SCN-01,U085,2026-10-22,Login at an unusual hour followed by access to a never-seen system.
+SCN-01,U043,2026-10-28,Login at an unusual hour followed by access to a never-seen system.
+SCN-01,U032,2026-10-20,Login at an unusual hour followed by access to a never-seen system.
+SCN-02,U045,2026-10-21,Burst of failed sign-ins then a success (possible password guessing).
+SCN-02,U026,2026-10-27,Burst of failed sign-ins then a success (possible password guessing).
+SCN-02,U073,2026-10-19,Burst of failed sign-ins then a success (possible password guessing).
+SCN-03,U010,2026-10-29,02:05 failures -> 02:08 success -> new admin server -> privileged action.
+SCN-03,U079,2026-10-21,02:05 failures -> 02:08 success -> new admin server -> privileged action.
+SCN-03,U036,2026-10-27,02:05 failures -> 02:08 success -> new admin server -> privileged action.
+SCN-04,U018,2026-10-28,Non-admin account performs a privileged action on a domain controller in work hours.
+SCN-04,U048,2026-10-20,Non-admin account performs a privileged action on a domain controller in work hours.
+SCN-04,U035,2026-10-26,Non-admin account performs a privileged action on a domain controller in work hours.
+SCN-05,U050,2026-10-27,"Sign-in from an unfamiliar location label, then a new system."
+SCN-05,U096,2026-10-19,"Sign-in from an unfamiliar location label, then a new system."
+SCN-06,U049,2026-10-21,BENIGN: approved overnight migration on a new system (has a change record).
+SCN-06,U019,2026-10-27,BENIGN: approved overnight migration on a new system (has a change record).
+SCN-06,U074,2026-10-19,BENIGN: approved overnight migration on a new system (has a change record).
+SCN-07,U020,2026-10-20,Stealthy: one quiet visit to an unfamiliar system in normal hours.
+SCN-07,U055,2026-10-26,Stealthy: one quiet visit to an unfamiliar system in normal hours.
